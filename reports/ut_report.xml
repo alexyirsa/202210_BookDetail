@@ -1,17 +1,20 @@
 <testExecutions version="1">
-  <file path="src/app/app.component.spec.ts">
-    <testCase name="AppComponent should have as title 'book-list'" duration="48"/>
-    <testCase name="AppComponent should create the app" duration="7"/>
+  <file path="src/app/interceptors/http-error-interceptor.service.spec.ts">
+    <testCase name="Service: HttpErrorInterceptor should ..." duration="13"/>
   </file>
   <file path="src/app/book/book-list/book-list.component.spec.ts">
-    <testCase name="BookListComponent should create" duration="18"/>
-    <testCase name="BookListComponent should have an img element " duration="10"/>
-  </file>
-  <file path="src/app/book/book-detail/book-detail.component.spec.ts">
-    <testCase name="BookDetailComponent should have an img element" duration="18"/>
-    <testCase name="BookDetailComponent should create" duration="7"/>
+    <testCase name="BookListComponent should have an img element " duration="39"/>
+    <testCase name="BookListComponent should create" duration="7"/>
   </file>
   <file path="src/app/book/book.service.spec.ts">
-    <testCase name="Service: Book should ..." duration="5"/>
+    <testCase name="Service: Book should ..." duration="2"/>
+  </file>
+  <file path="src/app/app.component.spec.ts">
+    <testCase name="AppComponent should create the app" duration="17"/>
+    <testCase name="AppComponent should have as title 'book-list'" duration="5"/>
+  </file>
+  <file path="src/app/book/book-detail/book-detail.component.spec.ts">
+    <testCase name="BookDetailComponent should create" duration="11"/>
+    <testCase name="BookDetailComponent should have an img element" duration="5"/>
   </file>
 </testExecutions>

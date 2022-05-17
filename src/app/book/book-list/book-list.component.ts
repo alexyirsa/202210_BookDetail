@@ -16,11 +16,17 @@ export class BookListComponent implements OnInit {
 
   constructor(private bookService: BookService) { }
 
-  getBooks(): void {
+  /*getBooks(): void {
     this.bookService.getBooks().subscribe((books) => {
       this.books = books;
     });
-  }
+  }*/
+
+  getBooks(): void {
+    this.bookService.getBooks().subscribe({next: books =>
+    this.books = books , error: e => console.error(e)});
+    }
+
 
   onSelected(book: BookDetail): void {
     this.selected = true;
